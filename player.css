@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    /*background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    background-image:linear-gradient(to right,#614385 , #516395);*/
+    background-color: #00203FFF;
+}
+
+.header{
+    padding-top:20px ;
+    text-align: center;
+    color: #ADEFD1FF;
+}
+.header h1{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 40px;
+
+}
+
+#title{
+    font-family: 'Philosopher', sans-serif;
+    
+}
+#artists{
+    margin-top: 10px;
+}
+
+.details{
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom:60px ;
+}
+.poster img{
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+}
+.poster{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.player{
+    border: #ADEFD1FF;
+    color:#ce4a7eff;
+    margin-left: 400px;
+    margin-top:50px ;
+    width:700px;
+    border-radius: 20px;
+    /*box-shadow: rgba(255, 0, 123, 0.25) 0px 50px 100px -20px, rgba(177, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.player{
+    /*background-image:linear-gradient(to right,#1c1c1bff , #CE4A7EFF);*/
+    background-color: #1c1c1bff;
+}
+    
+.controls{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.meter{
+    height:4px;
+    background-color:gray;
+    width: 60%;
+    margin: auto;
+    cursor: pointer;
+}
+.progres{
+    height: 4px;
+    background-color: #ce4a7eff;
+    width: 0%;
+    transition: all 1s;
+}
+
+.controls1{
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ border: 0;
+ background-color: transparent;
+ cursor: pointer;
+ color: #ce4a7eff;
+}
+i .fa-pause{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    background-color: transparent;
+}
+.player:hover{
+    box-shadow: rgba(229, 7, 52, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.Muted{
+    color: #fff;
+}
+
+.Repeated{
+    color: #fff;
+}
+
+.copy{
+    margin-top: 20px;
+    color: #ADEFD1FF;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+}
