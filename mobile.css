@@ -1,0 +1,34 @@
+@media(max-width: 768px) {
+
+    #header {
+        text-align: center;
+    }
+
+    #header h2 {
+        text-align: center;
+    }
+    #player{
+        margin: 0 auto;
+        width:70%;
+    }
+}
+
+@media(max-width:620px){
+    #poster{
+        width:80%;
+    }
+}
+
+@media(max-width:480px){
+    #poster{
+        width: 80%;
+    }
+}
+@media(max-width:1024px){
+    #header{
+        padding-bottom: 15px;
+    }
+    #player{
+        margin: 0 auto;
+    }
+}
