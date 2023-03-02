@@ -16,12 +16,14 @@
 @media(max-width:620px){
     #poster{
         width:80%;
+        height:300px;
     }
 }
 
 @media(max-width:480px){
     #poster{
-        width: 80%;
+        width: 70%;
+        height:200px;
     }
 }
 @media(max-width:1024px){
